@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+/* Importamos la fuente para que se vea profesional */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+@theme {
+  /* Aquí definimos la animación para que Tailwind 4 la reconozca como clase */
+  @keyframes fade-in {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f8fafc; /* Un gris muy suave de fondo para que resalte la tabla blanca */
+}
+
+.animate-fade-in {
+  animation: fade-in 0.4s ease-out forwards;
+}
