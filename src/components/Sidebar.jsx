@@ -17,8 +17,8 @@ const Sidebar = () => {
     <Box className="w-64 h-screen bg-slate-900 text-slate-300 flex flex-col border-r border-slate-800">
       <div className="p-6 flex items-center gap-3">
         <Smartphone className="text-blue-500" />
-        <Typography variant="h6" className="font-bold text-white tracking-tight">
-          Punto Cell
+        <Typography variant="h6" className="text-2xl font-black tracking-tighter text-white-900">
+          PUNTO<span className="text-blue-600">CELL</span>
         </Typography>
       </div>
       
